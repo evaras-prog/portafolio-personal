@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import { useState, useEffect } from 'react';
+import Navegacion from './components/Navegacion';
+import Introduccion from './components/Introduccion';
+import Proyectos from './components/Proyectos';
 import './App.css';
+import Noticias from './components/Noticias';
+import Contacto from './components/Contacto';
 
 function App() {
+  const [perfil, setPerfil] = useState(null);
+
+  useEffect(()=> {
+    fetch(`${process.env.PUBLIC_URL}/data/perfil.json`)
+      .then((respuesta) => respuesta.json())
+      .then((datos)=> setPerfil(datos));
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navegacion />
+      {perfil && <Introduccion {...perfil} /> }
+      <Proyectos />
+      <Noticias />
+      <Contacto />
+    </>
   );
 }
 
