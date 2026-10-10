@@ -1,0 +1,10 @@
+{
+  "nombre": "Esteban Varas",
+  "titulo": "Estudiante de Informática | Duoc UC",
+  "biografia": "Bienvenido a mi portafolio personal donde comparto mis proyectos y noticias recientes. ¡Conoce mi trabajo!",
+  "foto": "images/perfil.jpg",
+  "redes": {
+    "github": "https://github.com/tu-usuario",
+    "linkedin": "https://www.linkedin.com/in/tu-usuario"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "MasterBikes",
+    "descripcion": "Descripción breve del proyecto MasterBikes.",
+    "tecnologias": ["HTML", "CSS", "JavaScript"],
+    "imagen": "images/proyecto1.jpg",
+    "enlace": "https://github.com/tu-usuario/masterbikes"
+  },
+  {
+    "id": 2,
+    "titulo": "Sistema de Gestión Académica (SGA)",
+    "descripcion": "Descripción breve del sistema de gestión académica.",
+    "tecnologias": ["Java", "Spring Boot", "SQL"],
+    "imagen": "images/proyecto2.jpg",
+    "enlace": "https://github.com/tu-usuario/sga"
+  },
+  {
+    "id": 3,
+    "titulo": "Libro MPAZ",
+    "descripcion": "App móvil de asistencia desarrollada en equipo.",
+    "tecnologias": ["Kotlin", "Android"],
+    "imagen": "images/proyecto3.jpg",
+    "enlace": "https://github.com/tu-usuario/libro-mpaz"
+  }
+]

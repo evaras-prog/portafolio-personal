@@ -1,0 +1,30 @@
+{
+  "tecnologia": [
+    {
+      "id": 1,
+      "titulo": "Nueva versión de React",
+      "fecha": "2026-09-15",
+      "contenido": "Resumen breve de la noticia de tecnología."
+    },
+    {
+      "id": 2,
+      "titulo": "Avances en inteligencia artificial",
+      "fecha": "2026-09-28",
+      "contenido": "Resumen breve de la segunda noticia."
+    }
+  ],
+  "carrera": [
+    {
+      "id": 1,
+      "titulo": "Inicio del semestre en Duoc UC",
+      "fecha": "2026-08-10",
+      "contenido": "Resumen breve de una noticia de mi carrera."
+    },
+    {
+      "id": 2,
+      "titulo": "Evaluación Formativa 2",
+      "fecha": "2026-10-06",
+      "contenido": "Desarrollo del portafolio personal con React."
+    }
+  ]
+}
